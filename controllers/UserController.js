@@ -84,7 +84,7 @@ export const Login = async (req, res) => {
 
         return res.status(200).json({
             msg: "Login Berhasil",
-            data: accessToken
+            accessToken: accessToken
         });
     } catch (error) {
         return res.status(400).json({
