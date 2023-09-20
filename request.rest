@@ -1,0 +1,12 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email" : "bimaboim8@gmail.com",
+    "password": "anonim123_@",
+}
+
+//
+
+GET http://localhost:3000/user
+
